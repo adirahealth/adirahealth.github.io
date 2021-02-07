@@ -1,0 +1,38 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Adira Foods'
+
+google_analytics_id: ""
+homepage:
+  show_call_box: true
+logo:
+  mobile: "images/logo/logo-mobile.png"
+  desktop: "images/logo/logo.png"
+  desktop_height: "36px"
+footer:
+  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+
+seo:
+  meta_og_title: "Adira Foods"
+  meta_og_type: "website"
+  meta_og_url: "https://jekyll-serif-theme.netlify.app"
+  meta_og_image: "images/logo/logo.png"
+  meta_og_description: "Adira foods provides a variety of ready to eat foods."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@zerostaticio"
+  meta_twitter_creator: "@zerostaticio"
+
+collections:
+  services:
+    output: true
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
